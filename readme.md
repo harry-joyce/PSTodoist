@@ -7,7 +7,7 @@
 ## Download
 
 ### Latest build
-https://github.com/harry-joyce/PSTodoist/archive/master.zip
+https://github.com/harry-joyce/PSTodoist/archive/refs/tags/1.0.zip
 
 ## Install
 See [install](install.md)
