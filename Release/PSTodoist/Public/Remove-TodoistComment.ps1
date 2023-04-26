@@ -39,7 +39,7 @@ function Remove-TodoistComment
         
         $Id | Foreach {
         
-            $Uri = "https://api.todoist.com/rest/v1/comments/$_"
+            $Uri = "https://api.todoist.com/rest/v2/comments/$_"
             Write-Output $Uri
             $Request = Invoke-RestMethod -Headers $Header -Method Delete -Uri $Uri
             $Requests += $Request
