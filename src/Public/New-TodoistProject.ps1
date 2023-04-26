@@ -39,7 +39,7 @@ function New-TodoistProject
     process
     {
         Write-Verbose "Creating project"
-        $Uri = "https://api.todoist.com/rest/v1/projects"
+        $Uri = "https://api.todoist.com/rest/v2/projects"
         $Response = Invoke-RestMethod -Uri $Uri -Headers $Header -Body ($Body) -Method Post
         Write-Verbose $Response
     }
