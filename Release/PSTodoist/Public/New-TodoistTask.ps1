@@ -96,7 +96,7 @@ function New-TodoistTask
             'X-Request-Id'  = [guid]::NewGuid().guid
             "Authorization" = "Bearer $($Token)"
         }
-        $Uri = "https://api.todoist.com/rest/v1/tasks"
+        $Uri = "https://api.todoist.com/rest/v2/tasks"
         $Response = Invoke-RestMethod -Uri $Uri -Headers $Header -Body ($Body) -Method Post
         Write-Verbose $Response
     }
