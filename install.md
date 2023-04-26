@@ -11,7 +11,7 @@ if((Test-Path ".\PStodoist-$Version")) {
     Remove-Item ".\PStodoist-$Version" -Force -Recurse
 }
 
-Invoke-RestMethod -Uri "https://github.com/harry-joyce/PSTodoist/archive/refs/tags/1.0.zip" -OutFile ".\PStodoist-$Version.zip"
+Invoke-RestMethod -Uri "https://github.com/harry-joyce/PSTodoist/archive/refs/tags/1.1.zip" -OutFile ".\PStodoist-$Version.zip"
 
 if((Test-Path ".\PStodoist-$Version")) {
     Remove-Item ".\PStodoist-$Version" -recurse -force
