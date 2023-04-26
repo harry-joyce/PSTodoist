@@ -1,6 +1,6 @@
 ﻿# PSTodoist
 ## About PSTodoist
- A powershell module that uses the Todoist V8 BETA api.
+ A powershell module that uses the Todoist REST V2 api.
 
  This module or author is NOT affiliated with TODOIST.
 
