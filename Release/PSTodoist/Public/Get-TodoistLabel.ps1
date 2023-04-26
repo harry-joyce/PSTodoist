@@ -32,7 +32,7 @@ function Get-TodoistLabel
 
     process
     {
-        $Request = Invoke-RestMethod -Headers $Header -Method Get -Uri 'https://api.todoist.com/rest/v1/labels' 
+        $Request = Invoke-RestMethod -Headers $Header -Method Get -Uri 'https://api.todoist.com/rest/v2/labels' 
         
         $labels = @()
         
