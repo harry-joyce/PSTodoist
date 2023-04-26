@@ -47,7 +47,7 @@ function Get-TodoistComment
     process
     {
         foreach($sId in $Id){
-            $Uri = ("https://api.todoist.com/rest/v1/comments?" + $Category + "_id=" + $sId)
+            $Uri = ("https://api.todoist.com/rest/v2/comments?" + $Category + "_id=" + $sId)
             Write-Verbose $Uri
             $Request = Invoke-RestMethod -Headers $Header -Method Get -Uri $Uri
             
