@@ -32,7 +32,7 @@ function Get-TodoistProject
 
     process
     {
-        $Request = Invoke-RestMethod -Headers $Header -Method Get -Uri 'https://api.todoist.com/rest/v1/projects' 
+        $Request = Invoke-RestMethod -Headers $Header -Method Get -Uri 'https://api.todoist.com/rest/v2/projects' 
         
         $projects = @()
         
