@@ -39,7 +39,7 @@ function Remove-TodoistTask
         
         $Id | Foreach {
         
-            $Uri = "https://api.todoist.com/rest/v1/tasks/$_"
+            $Uri = "https://api.todoist.com/rest/v2/tasks/$_"
             Write-Output $Uri
             $Request = Invoke-RestMethod -Headers $Header -Method Delete -Uri $Uri
             $Requests += $Request
