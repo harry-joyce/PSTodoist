@@ -74,10 +74,4 @@ New-TodoistProject -Name "Repair dishwasher"
 
 
 
-## About the author
-Author: https://github.com/AlexAsplund
-
-Website: https://automativity.com
-
-
 
