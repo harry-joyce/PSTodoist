@@ -9,9 +9,6 @@
 ### Latest build
 https://github.com/harry-joyce/PSTodoist/archive/master.zip
 
-### v0.0.3
-https://github.com/harry-joyce/PSTodoist/archive/v0.0.3.zip
-
 ## Install
 See [install](install.md)
 
